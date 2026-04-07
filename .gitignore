@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Database — regenerated on startup, do not commit user data
+naijaclimagard.db
+naijaclimagard.db-shm
+naijaclimagard.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+pipeline_audit.log
+model_audit.log
+streamlit_log.txt
+
+# Environment
+.env
+.env.local
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (handled via Streamlit Cloud secrets manager)
+.streamlit/secrets.toml

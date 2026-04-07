@@ -1,0 +1,66 @@
+2026-04-07T12:17:28 | INFO     | naija_clima_guard.pipeline | NaijaClimaGuard Pipeline — START
+2026-04-07T12:17:28 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:28 | INFO     | naija_clima_guard.pipeline | Processing: Lokoja, Kogi (flood_site=True)
+2026-04-07T12:17:28 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:28 | INFO     | naija_clima_guard.pipeline | [WEATHER] Fetching for Lokoja, Kogi ...
+2026-04-07T12:17:31 | INFO     | naija_clima_guard.pipeline | [WEATHER] Lokoja — 2007 rows fetched OK
+2026-04-07T12:17:32 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Fetching discharge for Lokoja ...
+2026-04-07T12:17:33 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Lokoja — 2007 rows, 2007 non-null discharge values
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | [LABEL] Lokoja discharge 90-pct threshold = 16856.81 m³/s
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | [LABEL] Lokoja — 102/2007 flood days (5.1%)
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | [FEATURES] Lokoja — temporal features added
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | Processing: Makurdi, Benue (flood_site=True)
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:34 | INFO     | naija_clima_guard.pipeline | [WEATHER] Fetching for Makurdi, Benue ...
+2026-04-07T12:17:35 | INFO     | naija_clima_guard.pipeline | [WEATHER] Makurdi — 2007 rows fetched OK
+2026-04-07T12:17:36 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Fetching discharge for Makurdi ...
+2026-04-07T12:17:36 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Makurdi — 2007 rows, 2007 non-null discharge values
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | [LABEL] Makurdi discharge 90-pct threshold = 6860.20 m³/s
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | [LABEL] Makurdi — 91/2007 flood days (4.5%)
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | [FEATURES] Makurdi — temporal features added
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | Processing: Onitsha, Anambra (flood_site=True)
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | [WEATHER] Fetching for Onitsha, Anambra ...
+2026-04-07T12:17:37 | INFO     | naija_clima_guard.pipeline | [WEATHER] Onitsha — 2007 rows fetched OK
+2026-04-07T12:17:38 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Fetching discharge for Onitsha ...
+2026-04-07T12:17:38 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Onitsha — 2007 rows, 2007 non-null discharge values
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | [LABEL] Onitsha discharge 90-pct threshold = 3.98 m³/s
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | [LABEL] Onitsha — 86/2007 flood days (4.3%)
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | [FEATURES] Onitsha — temporal features added
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | Processing: Kano, Kano (flood_site=False)
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:39 | INFO     | naija_clima_guard.pipeline | [WEATHER] Fetching for Kano, Kano ...
+2026-04-07T12:17:40 | INFO     | naija_clima_guard.pipeline | [WEATHER] Kano — 2007 rows fetched OK
+2026-04-07T12:17:41 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Fetching discharge for Kano ...
+2026-04-07T12:17:41 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Kano — 2007 rows, 2007 non-null discharge values
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | [LABEL] Kano — control site, all labels = 0
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | [FEATURES] Kano — temporal features added
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | Processing: Maiduguri, Borno (flood_site=False)
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | ============================================================
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | [WEATHER] Fetching for Maiduguri, Borno ...
+2026-04-07T12:17:42 | INFO     | naija_clima_guard.pipeline | [WEATHER] Maiduguri — 2007 rows fetched OK
+2026-04-07T12:17:43 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Fetching discharge for Maiduguri ...
+2026-04-07T12:17:45 | INFO     | naija_clima_guard.pipeline | [FLOOD API] Maiduguri — 2007 rows, 2007 non-null discharge values
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | [LABEL] Maiduguri — control site, all labels = 0
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | [FEATURES] Maiduguri — temporal features added
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Combined: 10035 rows from 5/5 locations
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | [CLEAN] Input: 10035 rows, 20 columns
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | [CLEAN] Output: 10035 rows, 20 columns
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | ------------------------------------------------------------
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | SUMMARY
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Total rows   : 10035
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Flood days   : 279 (2.8%)
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Non-flood    : 9756 (97.2%)
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Date range   : 2018-01-01 to 2023-06-30
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Columns      : ['date', 'precipitation_sum', 'precipitation_hours', 'temperature_2m_max', 'temperature_2m_min', 'wind_speed_10m_max', 'et0_fao_evapotranspiration', 'river_discharge', 'location', 'state', 'latitude', 'longitude', 'flood_site', 'flood_occurred', 'rain_3d_sum', 'rain_7d_sum', 'rain_14d_sum', 'discharge_lag1', 'discharge_lag3', 'temp_range']
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline |   Kano          flood_days=0 / 2007
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline |   Lokoja        flood_days=102 / 2007
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline |   Maiduguri     flood_days=0 / 2007
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline |   Makurdi       flood_days=91 / 2007
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline |   Onitsha       flood_days=86 / 2007
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | ------------------------------------------------------------
+2026-04-07T12:17:46 | INFO     | naija_clima_guard.pipeline | Saved: training_data.csv
