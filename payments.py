@@ -37,8 +37,8 @@ try:
     PAYSTACK_PUBLIC_KEY = st.secrets["paystack"]["public_key"]
 except Exception:
     # Test keys — payments will not charge real cards
-    PAYSTACK_SECRET_KEY = "sk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    PAYSTACK_PUBLIC_KEY = "pk_test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    PAYSTACK_SECRET_KEY = "sk_test_4fb1b2ef61fce8dfed5246e473f9af5c7c431d66"
+    PAYSTACK_PUBLIC_KEY = "pk_test_2dc062c064bdd1c8b0a2260d64818b2c131beda4"
 
 BASE_URL   = "https://api.paystack.co"
 HEADERS    = {
